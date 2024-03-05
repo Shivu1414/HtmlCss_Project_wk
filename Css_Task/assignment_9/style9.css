@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(233 124 30);
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.maindiv {
+    width: 80%;
+    padding: 0;
+    margin: 0;
+    padding-top: 6em;
+}
+
+.div1 {
+    width: 75%;
+    background-color: rgb(101 91 76);
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 15px;
+    margin: auto;
+    text-align: center;
+    outline: 43px solid tomato;
+}
+
+.div12 {
+    margin-top: 50px;
+    width: 81%;
+    margin: auto;
+}
+
+.div2 {
+    width: 81%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.child1 {
+    width: 45%;
+    background-color: none;
+}
+
+.para1 {
+    font-size: 2em;
+    line-height: 1.5;
+    color: white;
+    font-family: sans-serif;
+    text-align: justify;
+
+}
+
+.para2 {
+    margin: 0;
+    padding: 0;
+    font-size: 2.2em;
+    line-height: 1.5;
+    font-family: sans-serif;
+    color: white;
+    text-transform: uppercase;
+}
+
+.supchild1 {
+    width: 90%;
+    outline: 32px solid rgb(87, 177, 87);
+    background-color: tomato;
+    /* margin-bottom: 35px; */
+    text-align: center;
+    padding: 14px;
+    margin: auto;
+    /* margin-left: 32px; */
+}
+
+.supchild2 {
+    width: 102%;
+    margin: auto;
+}
+
+.para3 {
+    text-align: justify;
+    color: white;
+    font-size: 2em;
+    font-family: sans-serif;
+    line-height: 1.3;
+}
+
+.para4 {
+    margin: 0;
+    padding: 0;
+    font-size: 2em;
+    font-family: sans-serif;
+    color: white;
+}
+
+.child2 {
+    margin-right: 0;
+    padding-right: 0;
+}
+
+/* @media quary */
+@media(max-width:1228px) {
+    .div2 {
+        width: 100%;
+        display: grid;
+        justify-content: unset;
+        margin: auto;
+        padding-top: 30px;
+    }
+    .child1{
+        width: 100%;
+    }
+    .supchild1 {
+        width: 75%;
+        outline: 32px solid rgb(87, 177, 87);
+        padding-bottom: 15px;
+        padding-top: 15px;
+        padding-left: 15px;
+        margin: auto;
+        text-align: center;
+        background-color: tomato;
+
+    }
+    .scc1 {
+        margin-bottom: 19px;
+    }
+    .supchild2{
+        width: 86%;
+    }
+    .child2{
+        margin-top: 20px;
+    }
+}
+@media(max-width:816px){
+    .para2{
+        font-size: 1.7em;
+        line-height: 1.3;
+    }
+    .para1{
+        font-size: 1.5em;
+    }
+    .para3{
+        font-size: 1.5em;
+    }
+    .supchild2{
+        padding-top: 20px;
+    }
+}

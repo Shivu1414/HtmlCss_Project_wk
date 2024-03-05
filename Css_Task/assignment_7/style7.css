@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(133 217 223);
+}
+.container{
+    margin: 0;
+    padding: 0; 
+    display: flex;
+    justify-content: center;
+}
+.maindiv{
+    width: 70%; 
+    padding: 0;
+    margin: 0;
+}
+.div0{
+    width: 97%;
+    padding-top: 30px;
+    padding-bottom: 5px;
+}
+.para1{
+    color: rgb(49, 119, 199);
+    font-size: 4em;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.para11{
+    font-size: 2em;
+    font-family: sans-serif;
+    text-align: justify;
+    line-height: 1.5;
+}
+.div1{
+    width: 95%;
+    background-color: rgb(219, 146, 35); 
+    outline: 5px solid rgb(165, 75, 15);
+    padding-bottom: 5em;
+    padding-top: 20px;
+    padding-left: 15px;
+    margin-bottom: 40px;
+
+}
+.para2{
+    margin: 0;
+    padding: 0;
+    font-size: 3em;
+    font-family: sans-serif;
+    color: white; 
+}
+.div2{
+    width: 96%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.child1{
+    width: 47%;
+    padding-bottom: 11em;
+    padding-top: 20px;
+    padding-left: 15px;
+    outline: 5px solid rgb(24, 121, 108);
+    background-color:rgb(59, 178, 199) ;
+}
+.div3{
+    width: 95%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    outline: 5px solid rgb(24, 121, 108);
+    background-color: rgb(70 157 157);
+}
+.para4{
+    font-size: 2em;
+    font-family: sans-serif;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+/* media quary */
+
+@media(max-width:1044px){
+    .div1{
+        margin-bottom: 20px;
+    }
+    .div2{
+        width: 95%;
+        display: grid;
+        justify-content: unset;
+        margin-bottom: 30px;
+    }
+    .child1{
+        margin-top: 15px;
+        width:100%;
+        padding-bottom: 11em;
+        padding-top: 20px;
+        padding-left: 15px;
+        outline: 5px solid rgb(24, 121, 108);
+        background-color:rgb(59, 178, 199) ;
+    }
+}
+@media(max-width:848px){
+    .para1{
+        font-size: 3em;
+    }
+}
+@media(max-width:656px){
+    .para1{
+        font-size: 2.2em;
+    }
+    .para11{
+        font-size: 1.5em;
+        font-family: sans-serif;
+        text-align: justify;
+        line-height: 1.3;
+    }
+    .para4{
+        font-size: 1.5em;
+        line-height: 1.3;
+        text-align: justify;
+    }
+}

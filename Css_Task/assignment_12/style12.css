@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(165, 165, 47);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.maindiv {
+    width: 70%;
+    padding-top: 60px;
+}
+
+.div1 {
+    margin: auto;
+    width: 90%;
+    padding: 30px;
+    background-color: rgb(44, 42, 42);
+}
+
+.ul1 {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+.ul1>li {
+    display: block;
+    color: white;
+    font-family: sans-serif;
+    font-size: 1.6em;
+}
+
+.list {
+    height: 60px;
+    width: 200px;
+    background-color: orange;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.div2 {
+    margin: auto;
+    width: 90%;
+    padding: 30px;
+    background-color: tomato;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.child1 {
+    width: 28%;
+}
+
+.sup1 {
+    width: 100%;
+    height: 20em;
+    /* background-color: aqua; */
+    border-radius: 0px;
+    margin-bottom: 10px;
+    background-image: url("img12.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sup2 {
+    width: 100%;
+    text-align: center;
+}
+
+.btn {
+    padding: 20px 69px;
+    background-color: palevioletred;
+    border: none;
+    color: white;
+    font-size: 2em;
+    margin-top: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 2PX 2PX 5PX 2PX BLACK;
+}
+
+.child2 {
+    width: 28%;
+}
+
+.child3 {
+    width: 28%;
+}
+
+.div3 {
+    width: 94%;
+    margin: auto;
+}
+
+.para1 {
+    font-size: 1.9em;
+    line-height: 1.7;
+    color: black;
+    text-align: justify;
+    font-family: sans-serif;
+
+}
+
+/* @media quary */
+@media(max-width:1604px) {
+    .list {
+        height: 53px;
+        width: 147px;
+        padding-top: 20px;
+    }
+}
+
+@media(max-width:1356px) {
+    .btn {
+        padding: 13px 22px;
+    }
+}
+
+@media(max-width:1172px) {
+    .para1 {
+        font-size: 1.5em;
+        line-height: 1.5;
+    }
+    .ul1>li {
+        font-size: 18px;
+    }
+    .list {
+        height: 38px;
+        width: 120px;
+        padding-top: 10px;
+    }
+    .div2 {
+        margin: auto;
+        width: 90%;
+        padding: 20px;
+        display: grid;
+        justify-content:unset;
+    }
+    .child1, .child2, .child3 {
+        width: 100%;
+        margin-top: 25px;
+    }
+    .btn{
+        margin-top: 0;
+    }
+}
+@media(max-width:952px){
+    .ul1 {
+        display: grid;
+        justify-content: unset;
+        list-style-type: none;
+    }
+    .list {
+        height: 30px;
+        width: 100%;
+        padding-top: 9px;
+    }
+    .para1 {
+        font-size: 1.2em;
+        line-height: 1.2;
+    }
+}
